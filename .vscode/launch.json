@@ -12,7 +12,11 @@
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
-            "servertype": "stlink"
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ]
         }
     ]
 }
