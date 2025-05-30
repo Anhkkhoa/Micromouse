@@ -37,6 +37,12 @@
 },
 {
   "directory": "C:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse",
+  "command": "C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Core/Inc -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles\\Micromouse.dir\\Core\\Src\\LED.c.obj -c C:\\Users\\anhkk\\OneDrive\\Documents\\Engineering\\Micromouse\\Core\\Src\\LED.c",
+  "file": "C:\\Users\\anhkk\\OneDrive\\Documents\\Engineering\\Micromouse\\Core\\Src\\LED.c",
+  "output": "CMakeFiles\\Micromouse.dir\\Core\\Src\\LED.c.obj"
+},
+{
+  "directory": "C:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse",
   "command": "C:\\PROGRA~2\\ARMGNU~1\\14EFD8~1.2RE\\bin\\AR19DD~1.EXE -DDEBUG -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Core/Inc -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Core\\Src\\system_stm32f4xx.c.obj -c C:\\Users\\anhkk\\OneDrive\\Documents\\Engineering\\Micromouse\\Core\\Src\\system_stm32f4xx.c",
   "file": "C:\\Users\\anhkk\\OneDrive\\Documents\\Engineering\\Micromouse\\Core\\Src\\system_stm32f4xx.c",
   "output": "cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Core\\Src\\system_stm32f4xx.c.obj"

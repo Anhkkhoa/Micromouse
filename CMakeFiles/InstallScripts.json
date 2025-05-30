@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/cmake_install.cmake",
+		"C:/Users/anhkk/OneDrive/Documents/Engineering/Micromouse/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
