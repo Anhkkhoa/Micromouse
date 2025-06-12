@@ -7,3 +7,4 @@ void BlueLED_on(void);
 void RedLED_off(void);
 void GreenLED_off(void);
 void BlueLED_off(void);
+void RGB_startup(void);
