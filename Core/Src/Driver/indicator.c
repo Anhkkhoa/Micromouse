@@ -1,6 +1,7 @@
-#include "LED.h"
+#include "indicator.h"
 #include "stm32f4xx_hal.h"
 
+extern TIM_HandleTypeDef htim3;
 /*
 PB7 - Red RGB
 PB8 - Green RGB
@@ -45,4 +46,9 @@ void RGB_startup(void) {
         HAL_Delay(500);
         BlueLED_off();
     }
+}
+
+//Buzzer
+void BuzzerInit(void) {
+    HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_3);
 }

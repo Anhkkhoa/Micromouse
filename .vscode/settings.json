@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "compare": "c"
+        "compare": "c",
+        "motor.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "indicator.h": "c",
+        "string.h": "c"
     }
 }

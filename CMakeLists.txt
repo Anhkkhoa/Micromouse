@@ -47,13 +47,16 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    Core/Src/LED.c
-    Core/Src/motor.c
+    Core/Src/Driver/indicator.c
+    Core/Src/Driver/motor.c
+    Core/Src/Driver/sensorADC.c
+    Core/Src/Driver/UART.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    Core/Inc/Driver
 )
 
 # Add project symbols (macros)
